@@ -46,6 +46,8 @@ namespace AssignmentTwo___Superhero_Class
             Console.WriteLine("|                                             |");
             Console.WriteLine("|             The Hylian Heroine              |");
             Console.WriteLine("|               Princess {0}                |", this.name);
+            Console.WriteLine("|                                             |");
+            Console.WriteLine("|             Her Current Powers:             |");
             Console.WriteLine("|                                             |");  
         
             for (int counter = 0; counter < this.superPowers.Length; counter++)

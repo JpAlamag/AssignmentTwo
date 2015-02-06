@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /* Name: John Paul Alamag - 300792027
- * Program: Assignment One - Hero Class
+ * Program: Assignment Two - SuperHero Class
  * Date last modified: 2/06/2015
- * Revision History:
+ * Revision History: Main Class created, showPowers method edited
  */
 
 namespace AssignmentTwo___Superhero_Class
@@ -16,6 +16,10 @@ namespace AssignmentTwo___Superhero_Class
     {
         static void Main(string[] args)
         {
+            SuperHero myhero = new SuperHero("Zelda");
+            myhero.showPowers();
+            Console.WriteLine();
+            myhero.fight();
         }
     }
 }
